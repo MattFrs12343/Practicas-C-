@@ -13,6 +13,6 @@ bool palindrome(string x) {
 int main() {
     string a;
     cin >> a;
-    cout << (palindrome(a) ? "true" : "false") << endl;
+    cout << (!palindrome(a) ? "true" : "false") << endl;
     return 0;
 }
