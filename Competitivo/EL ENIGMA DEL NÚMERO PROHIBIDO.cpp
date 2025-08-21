@@ -1,3 +1,4 @@
+///EL ENIGMA DEL NÚMERO PROHIBIDO///
 #include <iostream>
 using namespace std;
 bool hay3(int n) {
