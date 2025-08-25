@@ -1,14 +1,15 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-bool capicua(string x) {
-    int n = x.length();
-    for (int i = 0; i < n / 2; i++) {
-        if (x[i] != x[n - 1 - i]) {
+bool capicua(string x){
+    int n=x.length();
+    for (int i = 0; i < n/2; i++)
+    {
+        if(x[i]!=x[n-1-i]){
             return false;
         }
     }
-    return true;
+    return true;  
 }
 int main() {
     string a;
