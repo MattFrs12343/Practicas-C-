@@ -10,12 +10,8 @@ int main()
     while (t--)
     {
         cin>>x>>n;
-        if(x % 2 == 0) 
-            cout<< x<< "\n";
-        else 
-            cout<<"0"<<"\n";
+        cout << ((x % 2 == 0) ? x : 0) << "\n";
     }
-    
     return 0;
 }
 
