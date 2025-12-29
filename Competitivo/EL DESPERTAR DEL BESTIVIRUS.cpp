@@ -1,3 +1,4 @@
+//EL DESPERTAR DEL BESTIVIRUS//
 #include <bits/stdc++.h>
 using namespace std;
 int GeneraCeros(int n) {
